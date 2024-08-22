@@ -5,6 +5,6 @@ int main(){
     bool a= true;
     bool b= false;
     cout<<boolalpha;
-    cout<<"a&&b: "<<(a&&b)<<endl;
+    cout<<"A&&B: "<<(a&&b)<<endl;
     return 0;
 }
