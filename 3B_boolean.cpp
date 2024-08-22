@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     bool a= true;
-    bool b= false;
+    bool b= true;
     cout<<boolalpha;
     cout<<"A&&B: "<<(a&&b)<<endl;
     return 0;
