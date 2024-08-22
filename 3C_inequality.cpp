@@ -8,6 +8,6 @@
     cin>>a;
     cout<<"Enter second number: ";
     cin>>b;
-    cout<<"a!=b: "<<(a!=b)<<endl;
+    cout<<"A!=B: "<<(a!=b)<<endl;
     return 0;
 }
