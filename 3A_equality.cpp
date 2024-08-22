@@ -1,4 +1,4 @@
-// Experiment 3
+//Mukesh Rothe //23070123089 //CDS EXP3
 #include <iostream>
 using namespace std;
 int main ()
@@ -9,4 +9,5 @@ int main ()
     cout<<"Enter the value of b:"<<endl;
     cin>>b;
     cout<<"a==b:"<<(a==b)<<endl;
+    return 0;
 }
