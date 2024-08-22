@@ -1,60 +1,75 @@
-# Aim
-To learn about arithmetic, logical, miscelleaneous and assignment operators on c++.
 
-# Software Used
-VS Code
 
-# Problem Statement
-1.) Write a code for boolean operators in c++.
-2.) Write a code for checking equality of values in c++.
-3.) Write a code for checking inequality of values in c++.
+## Aim
+To understand and apply arithmetic, logical, miscellaneous, and assignment operators in C++.
 
-# Theory
-The boolalpha function is a manipulator that sets the boolalpha flag, which tells the stream to read or write a bool value as text, according to the stream's locale.
+## Software Used
+- VS Code
 
-The equal-to operator ( == ) returns true if both operands have the same value; otherwise, it returns false . The not-equal-to operator ( != ) returns true if the operands don't have the same value; otherwise, it returns false .
+## Problem Statements
+
+1. **Boolean Operators in C++**
+   - Write a program to demonstrate the use of boolean operators.
+
+2. **Equality Check in C++**
+   - Write a program to check if two values are equal.
+
+3. **Inequality Check in C++**
+   - Write a program to check if two values are not equal.
+
+## Theory
+
+- **`boolalpha`**: A manipulator that sets the `boolalpha` flag, instructing the stream to read or write boolean values as text according to the stream's locale.
+
+- **Equality Operator (`==`)**: Returns `true` if both operands have the same value; otherwise, it returns `false`.
+
+- **Inequality Operator (`!=`)**: Returns `true` if the operands do not have the same value; otherwise, it returns `false`.
+
+
+
+
 # Program codes
 ```javascript
-//Bool
-#include<iostream>
- using namespace std;
- int main()
+//Mukesh Rothe //23070123089 //CDS EXP3
+#include <iostream>
+using namespace std;
+int main ()
 {
-    bool a = true;
-    bool b = true;
-    cout<<boolalpha;
-    cout<<"a&&b: "<<(a&&b)<<endl;
+    int a,b;
+    cout<<"Enter the value of a: "<<endl;
+    cin>>a;
+    cout<<"Enter the value of b:"<<endl;
+    cin>>b;
+    cout<<"A==B:"<<(a==b)<<endl;
     return 0;
 }
 
-//Equality Operator
+//Mukesh Rothe //23070123089 //CDS EXP3
 #include<iostream>
 using namespace std;
 int main(){
+    bool a= true;
+    bool b= true;
+    cout<<boolalpha;
+    cout<<"A&&B: "<<(a&&b)<<endl;
+    return 0;
+}
+
+ //Mukesh Rothe //23070123089 //CDS EXP3
+ #include<iostream>
+ using namespace std;
+ int main()
+{
     int a,b;
     cout<<"Enter first number: ";
     cin>>a;
     cout<<"Enter second number: ";
     cin>>b;
-    cout<<"a==b: "<<(a==b)<<endl;
+    cout<<"A!=B: "<<(a!=b)<<endl;
     return 0;
 }
 
-//Inequality Operator
-#include<iostream>
- using namespace std;
- int main()
-{
-    int a,b;
-    cout<<"enter first number: ";
-    cin>>a;
-    cout<<"enter second number: ";
-    cin>>b;
-    cout<<"a!=b: "<<(a!=b)<<endl;
-    return 0;
-}
-
-
+//Mukesh Rothe //23070123089 //CDS EXP3
  #include<iostream>
  using namespace std;
  int main()
@@ -62,31 +77,38 @@ int main(){
     
     a = 1;
     b = 1;
-    cout<<"a&b: "<<(a&b)<<endl;
-    cout<<"a|b: "<<(a|b)<<endl;
-    cout<<"a^b: "<<(a^b)<<endl;
-    cout<<"a: "<<(~a)<<endl;
-    cout<<"a<<b: "<<(a<<b)<<endl;
-    cout<<"a>>b: "<<(a>>b)<<endl;
+    cout<<"A&B: "<<(a&b)<<endl;
+    cout<<"A|B: "<<(a|b)<<endl;
+    cout<<"A^B: "<<(a^b)<<endl;
+    cout<<"~A: "<<(~a)<<endl;
+    cout<<"A<<B: "<<(a<<b)<<endl;
+    cout<<"A>>B: "<<(a>>b)<<endl;
     
     return 0;
 }
 ```
 
 # Output:
- 1.) 3a_equality
- ![image](https://github.com/user-attachments/assets/0f21adad-7bc6-47c2-ad32-94858e69b26a)
+Equality-
 
- 2.) 3b_boolean
-![image](https://github.com/user-attachments/assets/b76d9a1a-a3c3-4d18-8b3c-537007b25e56)
+![Screenshot 2024-08-22 210451](https://github.com/user-attachments/assets/af071dba-4fb0-4886-917c-da7bf3aa2702)
 
-3.) 3c_inequality
-![image](https://github.com/user-attachments/assets/2aea7a74-8de1-4975-8994-be4d629db94e)
+Boolean-
 
-4.) 3d_operations
+![Screenshot 2024-08-22 210603](https://github.com/user-attachments/assets/be931ac8-b75f-48a1-b37c-f09967da2b55)
 
-![image](https://github.com/user-attachments/assets/b6c81d07-deb3-4ed7-ace5-35f175925a5c)
+Inequality-
+
+![Screenshot 2024-08-22 210752](https://github.com/user-attachments/assets/f5bd9722-2ce7-4199-af74-9023a73a2a8c)
+
+Operators-
+
+![Screenshot 2024-08-22 210839](https://github.com/user-attachments/assets/7bae79c9-ce47-467c-bb44-e068f71c3c22)
 
 
-# Conclusion
-We learnt to use different operator in c++.
+## Conclusion
+
+- We learned how to use various operators in C++ including boolean, equality, and inequality operators.
+
+
+
