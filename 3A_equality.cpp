@@ -8,6 +8,6 @@ int main ()
     cin>>a;
     cout<<"Enter the value of b:"<<endl;
     cin>>b;
-    cout<<"a==b:"<<(a==b)<<endl;
+    cout<<"A==B:"<<(a==b)<<endl;
     return 0;
 }
